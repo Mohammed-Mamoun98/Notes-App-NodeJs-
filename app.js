@@ -77,7 +77,7 @@ yargs.command({
     builder:{
         title:{
             demandOption:true,
-            type:'string',
+            type:'string', 
             describe:'note title to remove.'
         }
     }
